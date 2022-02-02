@@ -12,6 +12,7 @@ public class TrafficLight extends Light{ // my blueprint for all traffic lights
 
     }
 
+
     public void showColor (){
         System.out.println("color = " + color);
         System.out.println("localTime = " + localTime);

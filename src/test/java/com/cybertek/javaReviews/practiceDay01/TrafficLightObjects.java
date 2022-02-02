@@ -8,7 +8,7 @@ public class TrafficLightObjects {
 
         trafficLight = new TrafficLight("09:42 PM"); // new TrafficLight(); this statement holds the object
 
-       //  new TrafficLight().changeColor("yellow");
+        //  new TrafficLight().changeColor("yellow");
 
         trafficLight.changeColor("red");
 
@@ -29,6 +29,9 @@ public class TrafficLightObjects {
 
         TrafficLight.showTime();
 
+
+        // CTRL+ALT+L : Windows
+        // CMND + Options + L MAC
     }
 
 }

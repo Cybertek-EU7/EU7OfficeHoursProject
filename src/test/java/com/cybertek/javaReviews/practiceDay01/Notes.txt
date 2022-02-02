@@ -16,6 +16,7 @@ This statement similer to System.out.println, just prints red color (like error 
 Constructors:
 If you don't provide, Compiler provides one for you
 If you only have one constructor with parameter then, you need to invoke, create object with parameter
+In Inheritance: if you don't have a matching constructor at the child class, you will get compiler error. SO you need to create a matching constructor.
 
 
 Static vs Instance
@@ -35,3 +36,5 @@ I create an Abstract Parent Class
 
         * In abstraction: we want to say what an object should do
         but NOT how it should do it.
+
+Inheritance: You are inheriting fields and actions/behaviours of a parent class with "extends" keyword
