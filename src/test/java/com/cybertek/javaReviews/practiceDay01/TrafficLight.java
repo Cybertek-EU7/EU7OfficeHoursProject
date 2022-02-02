@@ -1,6 +1,6 @@
 package com.cybertek.javaReviews.practiceDay01;
 
-public class TrafficLight { // my blueprint for all traffic lights
+public class TrafficLight extends Light{ // my blueprint for all traffic lights
 // We are applying encapsulation: we have private field and Getter/Setter methods
     private String color;  // why do we define a variable private
 
@@ -24,6 +24,8 @@ public class TrafficLight { // my blueprint for all traffic lights
     public static void showTime(){
         System.out.println("The time of our traffic lights in the city : "+localTime);
        //  System.out.println("color = " + color); it is different for each object, and our compiler can NOT decide which object's color to put there
+
+       // System.out.println("location = " + location);
     }
 
     public void changeColor (String newColor){
@@ -33,6 +35,13 @@ public class TrafficLight { // my blueprint for all traffic lights
         } else {
             System.err.println("ERROR : invalid color : " + newColor);
         }
+    }
+
+
+    public void giveLight(){
+
+        System.out.println("Showing different light colors to arrange the traffic" + location +" at this location");
+
     }
 
 }

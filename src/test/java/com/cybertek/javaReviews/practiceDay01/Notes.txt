@@ -26,3 +26,12 @@ Variables:
 Methods :
     Instance methods belongs to each object, and they define each different objects actions, can be reached only by an object
     Static Methods belongs to class, can be called with className (and object name, but not preferable)
+
+
+We can have parent of all the Lights,
+but I just want to define general characteristics
+        but not every implementation
+I create an Abstract Parent Class
+
+        * In abstraction: we want to say what an object should do
+        but NOT how it should do it.
