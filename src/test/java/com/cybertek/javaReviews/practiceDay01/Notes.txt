@@ -1,0 +1,28 @@
+Today:
+- OOP :
+    - Encapsulation
+    - Inheritance
+    - Abstraction
+    - Polymorphism
+
+class: blueprint, general description of objects, template
+        * variables / properties / features
+        * methods / actions / behaviour
+object itself, concrete, real
+
+System.err.println("ERROR : invalid color : " + newColor);
+This statement similer to System.out.println, just prints red color (like error statements)
+
+Constructors:
+If you don't provide, Compiler provides one for you
+If you only have one constructor with parameter then, you need to invoke, create object with parameter
+
+
+Static vs Instance
+Variables:
+    Instance variables belongs to the object created from the class, and each object has it's own value for that instance field (exp: color)
+    Static variables: they belong to class and each object shares the same value for the static field (exp: localTime)
+
+Methods :
+    Instance methods belongs to each object, and they define each different objects actions, can be reached only by an object
+    Static Methods belongs to class, can be called with className (and object name, but not preferable)
