@@ -46,4 +46,26 @@ public class Person {
         this.setLastName(lastName);
         this.setAge(age);
     }
+
+    public static void main(String[] args) {
+        Person person = new Person();
+
+        System.out.println(person.getFirstName()); //"undefined"
+        System.out.println(person.getLastName()); //"undefined"
+        System.out.println(person.getAge()); // -1
+        System.out.println(person.toString()); //"undefined | undefined | -1"
+
+        person.setFirstName("John");
+        person.setLastName("Doe");
+        person.setAge(44);
+
+        System.out.println(person.toString() ); // "John | Doe | 44"
+
+        Person personTwo = new Person("Fatima", "Lee", 22);
+
+        System.out.println(personTwo.getFirstName()); //"Fatima"
+        System.out.println(personTwo.getLastName()); //"Lee"
+        System.out.println(personTwo.getAge()); // 22
+        System.out.println(personTwo.toString()); //"Fatima | Lee | 22"
+    }
 }
