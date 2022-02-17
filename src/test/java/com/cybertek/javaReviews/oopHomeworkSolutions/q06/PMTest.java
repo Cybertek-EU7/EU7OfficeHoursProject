@@ -12,6 +12,9 @@ public class PMTest {
             parkingMeterOne.tick();
             System.out.println("parkingMeterOne.timeLeft = " + parkingMeterOne.timeLeft);
 
+        ParkingMeter parkingMeterTwo = new ParkingMeter();
+        parkingMeterTwo.maxTime = 50;
+
 
         }
     }
