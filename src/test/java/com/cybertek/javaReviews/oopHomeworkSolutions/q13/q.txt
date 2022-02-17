@@ -1,0 +1,9 @@
+There are number of ways to describe color to computers, smartphones, tablets, browsers, etc.
+One of the popular ways is to use RGB (red, green, blue) value.
+
+More info: https://en.wikipedia.org/wiki/RGB_color_model
+RGB chart: https://www.rapidtables.com/web/color/RGB_Color.html
+
+In this task, we are going to write a simple Color class, that can represent only a few major colors.
+
+Available colors are already initialized to static final arrays.
