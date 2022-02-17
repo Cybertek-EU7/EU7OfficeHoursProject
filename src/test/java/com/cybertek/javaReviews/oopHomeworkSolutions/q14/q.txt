@@ -1,0 +1,10 @@
+In this assignment you will practice:
+inheritance
+constructors and calling parent class constructor
+overriding
+list with custom classes
+
+Please follow the instructions on top of each method.
+
+Work on this flow:
+Item > OnSaleItem > TJMaxx
